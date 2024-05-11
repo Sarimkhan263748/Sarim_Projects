@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasword generator</title>
+ <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <main>
+    <div class="generator">
+        <h1>Pasword generator </h1>
+        <label class="pasword-wrap">
+            <input type="text" id="pasword" readonly placeholder="generate the pasword">
+        </label>
+            <label>
+                <span>pasword length</span>
+                <input type="number" id="length" value="16">
+            </label>
+            <label>
+                <span>include uppercase letter</span>
+                <input type="checkbox" id="uppercase" checked>
+            </label>
+            <label>
+                <span>include lowercase letter </span>
+                <input type="checkbox" id="lowercase" checked>
+            </label>
+            <label>
+                <span>include numbers </span>
+                <input type="checkbox" id="numbers" checked>
+            </label>
+            <label>
+                <span>include symbol </span>
+                <input type="checkbox" id="symbol"checked>
+            </label>
+            <button type="submit" id="generate">pasword generator</button> 
+        </label>
+        </main>   
+        <script src="project.js"></script>       
+</body>
+</html>
